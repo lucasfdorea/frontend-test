@@ -1,0 +1,20 @@
+.product-gallery{
+	.product-thumbnails{
+	    list-style: none;
+	    padding: 0;
+	    margin-top: 5px;
+
+	    li{
+	    	display: inline;
+	    	margin-right: 10px;
+	    }
+
+	    li a img{
+	    	padding-bottom: 10px;
+	    }
+
+	    li.active a img{
+	    	border-bottom: 2px solid #000;
+	    }
+	}
+}

@@ -1,0 +1,68 @@
+footer{
+
+	background-color: #222222;
+	
+	.site-map{
+
+	    padding-top: 50px;
+
+		h4{
+			color: #fff;
+			letter-spacing: 2px;
+		}
+		a{
+			color: #909090;
+		}
+			a:hover{
+				color: #00B8A4;
+				text-decoration: none;
+			}
+
+		.form-newsletter{
+			border-radius: 0px;
+		    background-color: #404040;
+		    border: none;
+		    width: 80%;
+		    color: #909090;
+		    height: 40px;
+		}
+
+		.btn-newsletter{
+			color: #fff;
+		    background-color: transparent;
+		    border-radius: 0px;
+		    border: solid 1px #fff;
+		    padding: 10px 20px 10px 20px;
+		    margin-top: 10px;
+		}
+
+		.btn-newsletter:hover{
+			color: #00B8A4;
+			border: solid 1px #00B8A4;
+		}
+	}
+
+	.about-us{
+
+		margin: 50px 0px 150px 0px;
+
+		p{
+			color: #909090;
+			font-size: 0.8em;
+			padding-top: 10px;
+		}
+
+		ul.payment-method{
+			padding:0;
+			list-style-type: none;
+			margin-top: 15px;
+
+			li{
+				display: inline;
+				margin-right: 3px;
+			}
+		}
+	}
+
+
+}

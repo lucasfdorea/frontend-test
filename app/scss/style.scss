@@ -1,0 +1,19 @@
+@import 'bootstrap.scss';
+@import 'header/navbar.scss';
+@import 'header/logo.scss';
+@import 'header/breadcrumb.scss';
+@import 'product/product-gallery.scss';
+@import 'product/product-info.scss';
+@import 'product/related-product.scss';
+@import 'footer/footer.scss';
+
+@font-face {
+    font-family: halflings;
+    src: url(../../fonts/glyphicons-halflings-regular.woff);
+}
+
+body{
+
+	font-family: 'Source Sans Pro', sans-serif;
+
+}

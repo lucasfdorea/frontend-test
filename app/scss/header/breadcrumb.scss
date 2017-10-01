@@ -1,0 +1,20 @@
+ul.breadcrumb {
+    padding: 10px 16px;
+	background-color: #fff;
+	color: #C7C7C7;
+	font-size: 0.9em;
+
+	li a{
+		color: #000;
+	}
+		li a:hover{
+			color: #00B8A4;
+		}
+	.breadcrumb-arrow{
+		margin: 0px 10px 0px 10px;
+	}
+}
+
+.breadcrumb > li + li:before{
+	content: url('../../img/breadcrumbs-arrow.png');
+}

@@ -1,0 +1,40 @@
+.related-product{
+
+	padding-bottom: 100px;
+	padding-top: 50px;
+	box-shadow: inset 0px -5px 0px #00B8A4;
+	
+	.dash{
+		text-align: center;
+	    max-width: 80px;
+	    margin: 25px auto 50px;
+	    border-top: 1px solid #DCAE76;
+	}
+
+	.related-product-price{
+		color: #DCAE76;
+    	font-size: 1.5em;
+    	
+	}
+		.related-product-price-old{
+			color: #9A9A9A;
+	    	font-size: 1.5em;
+	    	margin-right: 10px;
+		}
+	
+	.related-product-info{
+		color: #9A9A9A;
+    	font-size: 1em;
+    	display: block;
+		}
+
+	.related-product-item{
+		cursor: pointer;
+		margin-bottom: 20px;
+	}
+	.related-product-title{
+		font-family: halflings;
+		height: 50px;
+	}
+
+}
